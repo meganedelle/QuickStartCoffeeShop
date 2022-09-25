@@ -79,12 +79,31 @@ header {
     vertical-align: middle;
 }
 
-nav { background: chocolate; }
+#top-announcement {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color:pink;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: black;
+    font-weight: bold;
+}
+
+nav { background: chocolate; 
+    }
 
 nav li a { 
     color: #fff;
     display: inline-block;
     padding: 10px 10px;
+
+}
+
+nav li {
+    display: inline-block
 }
 
 /* End Header */
@@ -110,7 +129,6 @@ footer a { color: cornsilk; }
 }
 
 .menu-item.additional-items .item-inner ul {
-    display: inline-block;
     width: 50%;
     float: left;
 }
