@@ -143,3 +143,94 @@ footer a { color: cornsilk; }
 }
 
 /* End Page Content */
+
+/* Sprites */
+
+.sprite-palette {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background: url('../images/sprite.png') 0 0;
+}
+.sprite-guitar {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background: url('../images/sprite.png') -40px 0;
+}
+.sprite-mask {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background: url('../images/sprite.png') -80px 0;
+}
+.sprite-controller {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background: url('../images/sprite.png') -120px 0;
+}
+.sprite-mic {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background: url('../images/sprite.png') -160px 0;
+}
+.sprite-quill {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background: url('../images/sprite.png') -200px 0;
+}
+.sprite-cup {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background: url('../images/sprite.png') -240px 0;
+}
+.sprite-utensils {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background: url('../images/sprite.png') -280px 0;
+}
+.sprite-milk {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background: url('../images/sprite.png') -320px 0;
+}
+.sprite-clydebank {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background: url('../images/sprite.png') -360px 0;
+}
+.sprite-bigcup {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background: url('../images/sprite.png') -400px 0;
+}
