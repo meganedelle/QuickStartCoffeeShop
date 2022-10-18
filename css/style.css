@@ -234,6 +234,7 @@ footer a { color: cornsilk; }
     border: none;
     background: url('../images/sprite.png') -400px 0;
 }
+
 #coffeehouse {
     background-image: url('../images/background.jpg');
     background-size: cover;
@@ -246,4 +247,40 @@ footer a { color: cornsilk; }
 }
 @keyframes background-pan {
     0% {transform: translateX(100%);}
+}
+
+@media only screen 
+and (min-device-width: 375px)
+and (max-device-width: 750px) {
+
+    main { padding: 5px;}
+
+    nav { height: 35px; }
+    nav ul { padding-top: 7px; }
+    nav li { display: inline; }
+    nav li a { color: #fff; }
+
+    .menu-item {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .title-item h2 { font-size: 1em; }
+
+    .menu-item-additional-items h2 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+        float: none;
+    }
+
+    footer h2 {
+        font-size: 1.4em;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    footer li { font-size: 0.85em; }
+
+    footer { padding-bottom: 5px; }
+
 }
